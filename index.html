@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+</head>
+<body>
+    <svg style="position: absolute; width: 0; height: 0; display: none;">
+        <symbol id="icon-arrow" viewBox="0 0 96 96">
+          <title>Arrow</title>
+          <path d="M39.66,13.34A8,8,0,0,0,28.34,24.66L51.69,48,28.34,71.34A8,8,0,0,0,39.66,82.66l29-29a8,8,0,0,0,0-11.31Z"/>
+        </symbol>
+      </svg>
+      
+      <div class="wrapper">
+        <h1>Órarend</h1>
+        <div class="sticky-header">
+          <span>Órarend</span>
+        </div>
+        <div class="table">
+          <div class="headers">
+            <div class="buttons">
+              <button class="btn-left">
+                <svg><use xlink:href="#icon-arrow"></use></svg>
+              </button>
+              <button class="btn-right">
+                <svg><use xlink:href="#icon-arrow"></use></svg>
+              </button>
+            </div>
+            <div class="scroller syncscroll" name="myElements">
+              <div class="track time">
+                <div class="heading">Idő</div>
+              </div>
+              <div class="track">
+                <div class="heading">Hétfő</div>
+              </div>
+              <div class="track">
+                <div class="heading">Kedd</div>
+              </div>
+              <div class="track">
+                <div class="heading">Szerda</div>
+              </div>
+              <div class="track">
+                <div class="heading">Csütörtök</div>
+              </div>
+              <div class="track">
+                <div class="heading">Péntek</div>
+              </div>
+              <div class="track">
+                <div class="heading">Szombat</div>
+              </div>
+              <div class="track">
+                <div class="heading">Vasárnap</div>
+              </div>
+            </div>
+          </div>
+          <div class="tracks syncscroll" name="myElements">
+            <div class="track time">
+              <div class="entry">
+                <time>08.00</time>
+              </div>
+              <div class="entry">
+                <time>9.00</time>
+              </div>
+              <div class="entry">
+                <time>10.00</time>
+              </div>
+              <div class="entry">
+                <time>11.00</time>
+              </div>
+              <div class="entry">
+                <time>12.00</time>
+              </div>
+              <div class="entry">
+                <time>13.00</time>
+              </div>
+              <div class="entry">
+                <time>14.00</time>
+              </div>
+              <div class="entry">
+                <time>15.00</time>
+              </div>
+              <div class="entry">
+                <time>16.00</time>
+              </div>
+            </div>
+            <div class="track yellow">
+              <div class="entry">
+                <div class="details">
+                  <h3>W(I</h3>
+                  <p>34</p>
+                </div>
+              </div>
+              <div class="track yellow">
+                <div class="entry">
+                    <div class="details">
+                        <h3>Aszalfelj</h3>
+                        <p>nylab</p>
+                    </div>
+                </div>
+              </div>
+            <div class="entry">
+                <div class="details">
+                    <h3>Ir</h3>
+                    <p>14</p>
+                </div>
+            </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Tört</h3>
+                  <p>13</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Ái</h3>
+                  <p>13</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>IKT II.</h3>
+                    <p>Tani</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Ang</h3>
+                  <p>30</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>IKT II.</h3>
+                  <p>31</p>
+                </div>
+              </div>
+            </div>
+            <div class="track turq">
+              <div class="entry">
+                <div class="details">
+                    <h3>Ném</h3>
+                    <p>30</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Ipl(I</h3>
+                  <p>nylab</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Ang</h3>
+                    <p>K3</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Test</h3>
+                    <p>T</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Tört</h3>
+                    <p>13</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Szang</h3>
+                  <p>7</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Mat</h3>
+                  <p>6</p>
+                </div>
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+            </div>
+            <div class="track red">
+              <div class="entry">
+                <div class="details">
+                    <h3>Ang</h3>
+                    <p>Zsib</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Of</h3>
+                  <p>13</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Mat</h3>
+                  <p>6</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Szang</h3>
+                    <p>5</p>
+                  </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Aszalfelj</h3>
+                  <p>31</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Test</h3>
+                    <p>T</p>
+                  </div>
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+            </div>
+            <div class="track green">
+              <div class="entry">
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Webprg</h3>
+                    <p>Szt2</p>
+                  </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Aszalfelj</h3>
+                  <p>Szt2</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Test</h3>
+                  <p>T</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Ny</h3>
+                  <p>14</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Ném</h3>
+                  <p>15</p>
+                </div>
+              </div>
+              <div class="entry">
+              </div>
+            </div>
+            <div class="track purple">
+              <div class="entry">
+                <div class="details">
+                  <h3>Ang</h3>
+                  <p>8</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Ir</h3>
+                    <p>14</p>
+                  </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                    <h3>Tört</h3>
+                    <p>13</p>
+                  </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Mat</h3>
+                  <p>6</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Szang</h3>
+                  <p>32</p>
+                </div>
+              </div>
+              <div class="entry">
+                <div class="details">
+                  <h3>Aszalfelj</h3>
+                  <p>Szt2</p>
+                </div>
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+            </div>
+            <div class="track gray">
+      
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry treble">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+            </div>
+            <div class="track">
+      
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+              <div class="entry">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="top-of-site-pixel-anchor"></div>
+      <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+</body>
+</html>
